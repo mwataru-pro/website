@@ -80,6 +80,20 @@ time {
   display: block; /* <time>の構成するボックスの種類がインラインボックスで、上下マージンが他のボックスとの位置関係に影響を与えない仕様になっているので、margin-bottomを反映させるためdisplayでブロックボックスにする必要がある */
 }
 
+/* サブメニュー */
+aside {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+h2 {
+  color: #29abe2;
+  font-family: 'Exo 2', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
 /* フッターブロック */
 footer {
   background-color: #6ac4eb;

@@ -32,6 +32,18 @@ p {
   line-height: 2;
 }
 
+/* 画像 */
+img {
+  /* 画像の横幅が親要素に合わせたサイズになり、画像の高さも横幅に合わせて自動的に変更される */
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  /* figureの持つマージンを打ち消す */
+  margin: 0;
+}
+
 /* フッターブロック */
 footer {
   background-color: #6ac4eb;

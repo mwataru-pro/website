@@ -4,6 +4,7 @@
 /* ページ全体の設定 */
 body {
   margin: 0;
+  font-family: sans-serif;
 }
 
 /* ヘッダーブロック */
@@ -15,6 +16,20 @@ header {
 div {
   background-color: #29abe2;
   padding: 40px 15px;
+}
+
+/* 記事 */
+article {
+  background-color: white;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p {
+  line-height: 2;
 }
 
 /* フッターブロック */

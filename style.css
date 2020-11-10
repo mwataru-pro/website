@@ -44,6 +44,13 @@ figure {
   margin: 0;
 }
 
+/* 投稿日 */
+time {
+  color: #666;
+  margin-bottom: 15px;
+  display: block; /* <time>の構成するボックスの種類がインラインボックスで、上下マージンが他のボックスとの位置関係に影響を与えない仕様になっているので、margin-bottomを反映させるためdisplayでブロックボックスにする必要がある */
+}
+
 /* フッターブロック */
 footer {
   background-color: #6ac4eb;

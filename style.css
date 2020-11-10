@@ -17,6 +17,16 @@ header {
   font-family: 'Exo 2', sans-serif;
 }
 
+/* リンク */
+a {
+  color: inherit; /* 「inherit」はプロパティの値を親要素と同じ値にするためのもの */
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
 /* コンテンツブロック */
 div {
   background-color: #29abe2;

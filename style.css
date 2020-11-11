@@ -150,7 +150,7 @@ footer {
 
 /* ==== PC版 ===== */
 @media (min-width: 600px) {
-  
+
 /* PC版：コンテナ */
 .container {
   max-width: 800px;
@@ -180,3 +180,36 @@ p {
 
 }
 /* PC版の設定はここまで */
+
+/* ===== PC版（大）===== */
+@media (min-width: 1025px) {
+
+/* PC版（大）：コンテナ */
+.container {
+  max-width: 1100px;
+}
+
+/* PC版（大）：「コンテンツ」ブロック内のコンテナ */
+.contents .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PC版（大）：記事 */
+article {
+  width: 68%;
+  box-sizing: border-box;
+}
+
+/* PC版（大）：サブメニュー */
+.sub {
+  width: 28%;
+}
+
+/* PC版（大）：プロフィール */
+.profile {
+  margin-top: 0;
+}
+
+}
+/* ===== PC版（大）の設定はここまで ===== */

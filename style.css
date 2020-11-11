@@ -190,6 +190,32 @@ footer {
   margin-top: 10px;
 }
 
+/* トップページ：記事一覧 */
+.toppost {
+  padding: 15px;
+}
+
+.toppost div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.toppost article {
+ padding: 0;
+ width: 48%;
+ flex: none;
+}
+
+.toppost article:not(:nth-last-child(-n+2)) {
+  margin-bottom: 12px;
+}
+
+.toppost h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
 /* ==== PC版 ===== */
 @media (min-width: 600px) {
 

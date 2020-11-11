@@ -154,6 +154,17 @@ footer {
   font-family: 'Exo 2', sans-serif;
 }
 
+/* トップページ：ヒーローイメージ */
+.hero {
+  background-image: url(img/walk.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 532px;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
 /* ==== PC版 ===== */
 @media (min-width: 600px) {
 

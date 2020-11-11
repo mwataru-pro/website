@@ -182,6 +182,14 @@ footer {
   margin-top: 0;
 }
 
+.hero a {
+  border: solid 2px #fff;
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: rgb(41, 171, 226, 0.7);
+  margin-top: 10px;
+}
+
 /* ==== PC版 ===== */
 @media (min-width: 600px) {
 

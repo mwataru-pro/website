@@ -226,6 +226,20 @@ footer {
   margin-right: auto;
 }
 
+/* PC版：トップページ：ヒーローイメージ */
+.hero h1 {
+  font-size: 72px;
+}
+
+/* PC版：トップページ：記事一覧 */
+.toppost article {
+  width: 23%;
+}
+
+.toppost article:not(:nth-last-child(-n+2)) {
+  margin-bottom: 0;
+}
+
 /* PC版：「ヘッダー」ブロック内のコンテナ */
 header .container {
   display: flex;
